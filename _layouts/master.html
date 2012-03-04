@@ -69,7 +69,7 @@
 
 {% unless page.no_top_edge %}
 <div class="top-edge">
-{% if top_edge_breadcrumb %}
+{% if page.top_edge_breadcrumb %}
 <ul class="breadcrumb">
 	<li class="home"><a href="/">HTML 5 Playground</a></li>
 	{% if page.folder %}<li class="folder"><a href="{{ page.folderurl }}">{{ page.folder }}</a></li>{% endif %}
