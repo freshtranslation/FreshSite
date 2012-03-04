@@ -1,0 +1,25 @@
+---
+layout: post
+title: Tips for Translating your Website
+author: Caterine Apruzzese
+authorurl: /Caterine+Apruzzese
+location: New York 
+summary: Top 5 tips and guides to *translate* your website. 
+category:
+  - onaquest
+---
+Top 5 website translation tips  
+
+- Don't *translate* literally. Remember that the *translation* needs to be readable by your target audience, therefore instead of translating it word-for-word it is a good idea to focus on the general context and message presented and come up with your own summary that expresses the same thought in a natural way for the target audience. The best translations are those that do not sound like a translation! 
+
+- Try to reduce the amount of images containing text. Illustrations are a great way of communicating your ideas, but if used with integrated text it can sometimes be difficult to keep the intended meaning and feel in the translated version. You might want to consider placing as much text as possible in the HTML rather than on the image. 
+
+- Avoid using slang, idiomatic and colloquial expressions. Since you are aiming at reaching a broader international audience, try writing clearly, with objective sentences and words. It is more likely that your message will be understood by foreign visitors visiting your blog/site. 
+
+- Decide how much of your *website* you want to translate. Are you translating your full website or Microsite or perhaps you want to translate your home page only? You can determine this based on market research. By adding Google Analytics to your site you can analyze your traffic data and keep track of your visitor's location and behaviour on your site. 
+
+-*Localization*. In other words, making your website appropriate for a target locale. For example, there are many words that are different in Brazilian and European Portuguese. "Pequeno almoço" means breakfast in Portuguese from Portugal but in Brazil they call it "café da manhã" instead. Look for elements within your website that might require localization such as any mentions of currencies or date and time formats. 
+So, localization is an important aspect of your international website and it should be done by a native-speaking translator for each of your target markets. 
+
+ 
+

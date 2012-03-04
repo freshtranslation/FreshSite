@@ -4,8 +4,10 @@
 	{% else %}
 	<div class="three-thirds">
 	{% endif %}
+		<a href="/">
 		{% if page.header_title %}<h1>{{ page.header_title }}</h1>{% endif %}
 		{% unless page.header_title %}<h1>{{ site.title }}</h1>{% endunless %}
+		</a>
 	</div>	
 		{% if page.blog-link %}
 		<div class="third">

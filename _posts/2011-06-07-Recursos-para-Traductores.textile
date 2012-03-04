@@ -1,0 +1,17 @@
+---
+
+layout: post
+title: Recursos para Traductores 
+author: Caterine Apruzzese
+authorurl: /Caterine+Apruzzese
+location: Brazil 
+summary: Aquí os dejo una breve lista de algunos de mis favoritos diccionarios monolingües.
+category:
+  - onaquest
+---
+Aquí os dejo una breve lista de algunos de mis favoritos diccionarios monolingües.
+
+
+* Diccionario de la Real Academia de la Lengua Española: Es el diccionario normativo más amplio de la Lengua Castellana.
+* Moliner, M: Diccionario de uso del español: Un diccionario muy completo con abundante información, sinonimia, antonimia y fraseología.
+* Diccionario Priberam da Lingua Portuguesa (DPLP) es un diccionario de Portugués Europeo que contiene alrededor de 97 000 entradas léxicas y de multiples usos como ideologico, de sinónimos y antónimos.

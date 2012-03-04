@@ -13,7 +13,7 @@ end
  
 desc 'Build and start server with --auto'
 task :server do
-  jekyll '--server --auto'
+  jekyll '--server 5000 --auto'
 end
 
 desc 'Build and deploy'

@@ -1,0 +1,27 @@
+---
+layout: default
+title: About Fresh Translation
+header_title: About Fresh Translation
+---
+ 
+
+Fresh Translation is a newly started translation service into Latin Languages. We translate documents and websites into Portuguese, Spanish, English and French. 
+
+Our process is specifically tailored to give our translation the extra polish needed in areas such as technical writing, legal summaries and sales presentations. Our clients will appreciate giving customers in foreign countries the same great impression that they do at home through our translated documents or websites. We understand that time is precious in the business world and that is the reason why timeliness is another important aspect of our services. 
+
+
+"On a Quest To Make Fresh Translations" is our blog where we share news and curiosities related to the translation Industry. 
+
+You can contact Fresh Translation via email at {{ site.email }} or visit our website freshtranslation.com 
+
+
+Fresh Translation é um novo serviço de tradução e revisão. Traduzimos documentos e sítios web para Português, Espanhol, Inglês e Francês. 
+
+ 
+Contamos com um processo feito especificamente para garantir uma tradução refinada em areas como escrita técnica, sumários jurídicos e comerciais. Através das nossas traduções, os nossos clientes poderão certamente proporcionar aos seus parceiros comerciais no exterior a mesma exatidão que aquela obtida nos seus países de origem. Oferecemos traduções gerais e técnicas num tempo recorde! Entre em contato conosco hoje para iniciar o seu próximo projeto.  
+
+
+"On a Quest to Make Fresh Translations" é o nosso blog onde partilhamos notícias e curiosidades relacionadas à industria de tradução. 
+
+
+Para entrar em contato acese o nosso sítio em freshtranslation.com ou por email em contact@freshtranslation.com
