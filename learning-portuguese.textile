@@ -1,0 +1,74 @@
+---
+layout: master
+theme: main
+thirds: production
+flawless: production
+title: Learning Portuguese
+header_title: Learning Portuguese
+wrap-section: no
+---
+{% unless page.no_header %}{% include page-header.html %}{% endunless %}
+<div class="intro constrained">
+	<div class="thirds-content">
+			
+		<div class="third normal-read two-columns">
+{% if page.wrap-section %}<section>{% endif %}
+
+	<img src="../images/courses.jpg">
+	<h2>Types of Courses</h2>
+	
+	<img src="../images/communication.jpg">
+	<h2>Communication</h2>
+	
+	<img src="../images/prices.jpg">
+	Advantages of Online Learning
+
+
+	Teaching Approach and Method
+
+	Materials
+
+	Using Skype, Facetime or Video Conferencing
+
+
+	Good Links / Travel Advice
+
+
+
+{% if page.wrap-section %}</section>{% endif %}
+		</div>
+		
+		<aside class="third splash normal-read two-columns">
+			{% include great-translations-sidebar.html %}
+		</aside>
+</div></div> 
+
+<div class="main constrained">
+	<div class="thirds-content" style="display:none;">
+			
+		<div class="three-thirds normal-read">
+			{% for post in site.posts limit:10 %}
+			<article class="wide-third">
+			<details>
+				<summary>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<time class="postdate">
+						<span class="postmonth">{{ post.date | date: "%b" }}</span>
+						<span class="postday">{{ post.date | date: "%d" }}</span>
+					</time>
+					{% if post.image %}<img src="{{ post.image }}" class="principal">{% endif %}
+					<p>{% if post.summary %}{{ post.summary | truncatewords:50 }}{% endif %}</p>
+					<a href="{{ post.url }}">More</a>
+				</summary>
+			</details>
+			</article>
+			{% endfor %}
+		</div>
+</div></div> 
+
+<footer class="constrained">
+	{% include page-footer-etc.html %}
+	{% include page-footer-copyright.html %}
+</footer>
+
+
