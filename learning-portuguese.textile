@@ -20,7 +20,6 @@ wrap-section: no
 	<img src="../images/communication.jpg">
 	<h2>Communication</h2>
 	
-	<img src="../images/prices.jpg">
 	Advantages of Online Learning
 
 
@@ -37,9 +36,28 @@ wrap-section: no
 
 {% if page.wrap-section %}</section>{% endif %}
 		</div>
-		
+
+		<div class="third normal-read two-columns">
+			<img src="../images/prices.jpg">
+			<h2>Prices</h2>
+		</div>
 		<aside class="third splash normal-read two-columns">
-			{% include great-translations-sidebar.html %}
+
+			<section style="position:relative; top: -80px;">
+				<img src="/images/simple-book.png" width="112" style="position:relative; top:65px; left: 140px;">
+
+				<h1>About Me</h1>
+				<p>
+					</p>        
+
+				<FORM METHOD="get" ACTION="mailto:contact@freshtranslation.com" ENCTYPE="multipart/form-data"> 
+				<input type="hidden" class="mail-encode" name="subject" value="Learning Portuguese">
+				<textarea class="mail-encode" style="display:none;" name="body" hidden=hidden></textarea>
+
+				<button class="big">Ask a Question</button>
+				</FORM>
+			</section>
+
 		</aside>
 </div></div> 
 
