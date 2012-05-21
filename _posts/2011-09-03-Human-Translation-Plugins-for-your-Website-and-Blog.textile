@@ -1,0 +1,22 @@
+---
+layout: post
+title: Human Translation Plugins for your WordPress Website and Blog 
+author: Caterine Apruzzese
+authorurl: /Caterine+Apruzzese
+location: New York
+summary: I recently wrote an article about WordPress translation plugins that provide human accuracy by combining automatic translation and human post-editing. 
+categories:
+  - onaquest
+  - website-translation
+  - machine-translation
+---
+
+I recently wrote an article about WordPress translation plugins that provide human accuracy by combining automatic translation and human post-editing. 
+
+<a href="http://ezinearticles.com/?expert=Caterine_V_Apruzzese">Translating Your WordPress Website and Blog Using Human Translation Plugins</a> 
+
+For those of you who are interested, WordPress Ninja teaches how to configure WPML Multi Language Plugin
+
+<a href="http://www.wordpressninja.com/2011/02/how-to-configure-wpml-multi-language-plugin/">How to Configure WPML Multi Language Plugin</a>
+
+

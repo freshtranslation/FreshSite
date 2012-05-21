@@ -1,0 +1,26 @@
+---
+layout: post
+title: How to choose a technical translator
+author: Caterine Apruzzese
+authorurl: /Caterine+Apruzzese
+location: New York 
+summary: In today's blog post we are giving you some tips that might help you choosing the right *technical translator*. 
+category:
+  - onaquest
+---
+
+Technical Translation is a specialised translation of documents in fields such as aerospace industry, computer hardware and software, chemistry or finance. 
+
+In today's blog post we are giving you some tips that might help you choosing the right *technical translator*. 
+
+Because as a company you want to communicate your products and values, it is essential that you choose a translator that is highly competent in your field,  not only in the source language but also in the target language. Technical documents use 'jargon', a specialised language concerned to a particular field that is usually not listed in regular dictionaries, so a good background knowledge in the specific field is essential in order to translate it correctly. 
+
+It is also a good idea to check for experience within the translation industry. So, if an *automotive* document needs to be translated, look for a translator that is also a mechanical engineer and ensure that the final copy is *reviewed* and *proofed* by a third party, also a specialist in the field. 
+
+A document should be translated by a language- sensitive native. This is to ensure that the document is carefully *translated* and *localised* according to the dialects and local culture. For instance, translating to Portuguese is very different for Portugal vs. Brazil.
+
+*Cost* vs *quality*: Although technical documentation is often subject to budget constraints, companies are starting to realise that documentation *quality* is worth it as it reflects your brand. Instead of looking at it as a cost of doing business, think about what impression the document will give your customers and business partners. If the communication is crisp it will add to a positive experience of your brand and company. 
+
+
+Whether it is software manuals, annual reports or press releases, it seems that good *technical translations* are critical to the success of products and ultimately to the success of a brand.   
+

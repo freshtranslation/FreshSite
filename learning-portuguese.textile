@@ -1,0 +1,92 @@
+---
+layout: master
+theme: main
+thirds: production
+flawless: production
+title: Learning Portuguese
+header_title: Learning Portuguese
+wrap-section: no
+---
+{% unless page.no_header %}{% include page-header.html %}{% endunless %}
+<div class="intro constrained">
+	<div class="thirds-content">
+			
+		<div class="third normal-read two-columns">
+{% if page.wrap-section %}<section>{% endif %}
+
+	<img src="../images/courses.jpg">
+	<h2>Types of Courses</h2>
+	
+	<img src="../images/communication.jpg">
+	<h2>Communication</h2>
+	
+	Advantages of Online Learning
+
+
+	Teaching Approach and Method
+
+	Materials
+
+	Using Skype, Facetime or Video Conferencing
+
+
+	Good Links / Travel Advice
+
+
+
+{% if page.wrap-section %}</section>{% endif %}
+		</div>
+
+		<div class="third normal-read two-columns">
+			<img src="../images/prices.jpg">
+			<h2>Prices</h2>
+		</div>
+		<aside class="third splash normal-read two-columns">
+
+			<section style="position:relative; top: -80px;">
+				<img src="/images/simple-book.png" width="112" style="position:relative; top:65px; left: 140px;">
+
+				<h1>About Me</h1>
+				<p>
+					</p>        
+
+				<FORM METHOD="get" ACTION="mailto:contact@freshtranslation.com" ENCTYPE="multipart/form-data"> 
+				<input type="hidden" class="mail-encode" name="subject" value="Learning Portuguese">
+				<textarea class="mail-encode" style="display:none;" name="body" hidden=hidden></textarea>
+
+				<button class="big">Ask a Question</button>
+				</FORM>
+			</section>
+
+		</aside>
+</div></div> 
+
+<div class="main constrained">
+	<div class="thirds-content" style="display:none;">
+			
+		<div class="three-thirds normal-read">
+			{% for post in site.posts limit:10 %}
+			<article class="wide-third">
+			<details>
+				<summary>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<time class="postdate">
+						<span class="postmonth">{{ post.date | date: "%b" }}</span>
+						<span class="postday">{{ post.date | date: "%d" }}</span>
+					</time>
+					{% if post.image %}<img src="{{ post.image }}" class="principal">{% endif %}
+					<p>{% if post.summary %}{{ post.summary | truncatewords:50 }}{% endif %}</p>
+					<a href="{{ post.url }}">More</a>
+				</summary>
+			</details>
+			</article>
+			{% endfor %}
+		</div>
+</div></div> 
+
+<footer class="constrained">
+	{% include page-footer-etc.html %}
+	{% include page-footer-copyright.html %}
+</footer>
+
+

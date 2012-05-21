@@ -1,0 +1,16 @@
+---
+layout: post
+title: Articles about Technical, Literary and Website Translation
+author: Caterine Apruzzese
+authorurl: /Caterine+Apruzzese
+location: New York
+summary: I plan to write a number of articles about Technical, Literary and Website Translation. This post will contain an up-to-date list of articles and blog posts on the topic. 
+category:
+ - onaquest
+---
+
+I plan to write a number of *articles* about *Technical*, *Literary* and *Website* *Translation*. This post will contain an up-to-date list of articles and blog posts on the topic.
+
+h2. Articles
+
+* "Technical, Literary and Website Translation into French, Spanish and Portuguese"
