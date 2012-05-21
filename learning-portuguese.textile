@@ -7,8 +7,7 @@ title: Learning Portuguese
 header_title: Learning Portuguese
 wrap-section: no
 ---
-{% unless page.no_header %}{% include page-header.html %}{% endunless %}
-<div class="intro constrained">
+<div class="intro constrained" style="padding-top: 80px;">
 	<div class="thirds-content">
 			
 		<div class="third normal-read two-columns">
@@ -44,7 +43,7 @@ wrap-section: no
 		<aside class="third splash normal-read two-columns">
 
 			<section style="position:relative; top: -80px;">
-				<img src="/images/simple-book.png" width="112" style="position:relative; top:65px; left: 140px;">
+				<img src="/images/katty-in-ipad.png" style="position:relative; top:65px; left: 80px;" width="251">
 
 				<h1>About Me</h1>
 				<p>
