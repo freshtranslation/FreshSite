@@ -1,0 +1,97 @@
+---
+layout: master
+theme: main
+thirds: production
+flawless: production
+title: Learning Portuguese
+header_title: Learning Portuguese
+wrap-section: no
+---
+<div class="intro constrained" style="padding-top: 80px;">
+	<div class="thirds-content">
+			
+		<div class="third normal-read two-columns">
+{% if page.wrap-section %}<section>{% endif %}
+
+	<h2>Portuguese for Travellers</h2>
+
+	The books is just out, there are no corrections yet.
+
+	
+
+
+
+
+{% if page.wrap-section %}</section>{% endif %}
+		</div>
+
+		<div class="third normal-read two-columns" style="visibility:hidden; ">
+
+			<h2>Prices</h2>
+
+Lessons must be paid in advance by Paypal, Card or Bank transfer. 
+
+ * &euro;18 for an initial trial lesson of one hour.
+ * &euro;180 for a 6 hour course. 
+ * &euro; 240 for a 10 hour course. 
+ * Additional hours are charged at &euro;36.
+
+<br> 
+Should you wish to cancel your lesson, it must be done at least 3 hours in advance. 
+
+		</div>
+		<aside class="third splash normal-read two-columns">
+
+			<section style="position:relative; top: -80px;">
+				<img src="/images/katty-in-ipad.png" style="position:relative; top:65px; left: 80px;" width="251">
+
+				<h1>About Me</h1>
+				<p>
+				
+				I have been teaching Spanish and Portuguese face-to-face to business, travellers and college students and I think that many of my students prefer online learning as it is very practical and a real time saver. 
+				
+				If you want to complement using the books with learning from a teacher, contact me for more
+				information.
+
+				</p>        
+
+				<FORM METHOD="get" ACTION="mailto:contact+portuguese@freshtranslation.com" ENCTYPE="multipart/form-data"> 
+				<input type="hidden" class="mail-encode" name="subject" value="Learning Portuguese">
+				<textarea class="mail-encode" style="display:none;" name="body" hidden=hidden></textarea>
+
+				<button class="big">Question about portuguese</button>
+				</FORM>
+			</section>
+
+		</aside>
+</div></div> 
+
+<div class="main constrained">
+	<div class="thirds-content" style="display:none;">
+			
+		<div class="three-thirds normal-read">
+			{% for post in site.posts limit:10 %}
+			<article class="wide-third">
+			<details>
+				<summary>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<time class="postdate">
+						<span class="postmonth">{{ post.date | date: "%b" }}</span>
+						<span class="postday">{{ post.date | date: "%d" }}</span>
+					</time>
+					{% if post.image %}<img src="{{ post.image }}" class="principal">{% endif %}
+					<p>{% if post.summary %}{{ post.summary | truncatewords:50 }}{% endif %}</p>
+					<a href="{{ post.url }}">More</a>
+				</summary>
+			</details>
+			</article>
+			{% endfor %}
+		</div>
+</div></div> 
+
+<footer class="constrained">
+	{% include page-footer-etc.html %}
+	{% include page-footer-copyright.html %}
+</footer>
+
+
