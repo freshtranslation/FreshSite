@@ -15,7 +15,11 @@ wrap-section: no
 
 	<h2>Portuguese for Travellers</h2>
 
-	The books is just out, there are no corrections yet.
+	The book is just out, there are no corrections yet.
+
+	<h2>More Portuguese</h2>
+
+	We are working on the next book.
 
 	
 
