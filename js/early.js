@@ -26,13 +26,30 @@
 	function _AccountActions() {
 
 	}
-	var AccountActions = DialogAction.variant("navigation/account",Generator(_AccountActions,DialogAction));
-	AccountActions.prototype.logout = function(dialogElement) {
-		setTimeout(function(){
+	var AccountActions = DialogAction.variant("navigation/account",Generator(_AccountActions,DialogAction,{
+		"prototype": {
+			"en": function(){ 
+		  		Resolver("translations").set("locale","en"); 
+			},
+			"pt": function(){ 
+		  		Resolver("translations").set("locale","pt"); 
+			},
+			"es": function(){ 
+		  		Resolver("translations").set("locale","es"); 
+			},
+			"fr": function(){ 
+		  		Resolver("translations").set("locale","fr"); 
+			},
 
-			Resolver().reference("demo-session").set("loggedIn",false);
-		},1000);
-	};
+			logout: function(dialogElement) {
+				setTimeout(function(){
+
+					Resolver().reference("demo-session").set("loggedIn",false);
+				},1000);
+			}
+		}
+	}));
+	AccountActions.prototype.logout = 
 
 	// manage the loading of the application
 	pageState.on("change",function(ev){
