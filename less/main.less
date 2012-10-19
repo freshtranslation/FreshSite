@@ -132,6 +132,11 @@
 /* Tell the framework where it is relative to the html file  */
 @setup_resources_path: "css";
 
+.supportLang(en);
+.supportLang(es);
+.supportLang(pt);
+//.supportLang(fr);
+//.supportLang(de);
 
 body {
     /** Define vertical rythm of text in normal/light/dense read areas */
@@ -339,6 +344,21 @@ blockquote {
 nav.page-menu {
     
     .regular_page_menu(@page-menu-button-width, @page-menu-button-height, url('/images/buttons/top-edge.png'));
+
+    a {
+        color: #333;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+    a:hover,
+    html[lang=en] & a[name=en],
+    html[lang=es] & a[name=es],
+    html[lang=pt] & a[name=pt] {
+        color: white;
+    }
+    code {
+        vertical-align: -6px;
+    }
 }
 
 .links-bar {

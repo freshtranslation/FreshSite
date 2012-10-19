@@ -2,7 +2,12 @@
 # http://github.com/appden/appden.github.com/blob/master/Rakefile
 
 task :default => :server
- 
+
+desc 'Install dependencies'
+task :install do
+  sh 'npm install less' 
+end
+
 desc 'Build site with Jekyll'
 task :build do
   jekyll
@@ -28,5 +33,5 @@ end
 
 def lessc(base)
   sh 'rm -f css/' + base + '.css'
-  sh '(cat less/' + base +'.prefix; lessc -x less/'+ base + '.less)> css/' + base + '.css'
+  sh '(cat less/' + base +'.prefix; ./node_modules/.bin/lessc -x less/'+ base + '.less)> css/' + base + '.css'
 end

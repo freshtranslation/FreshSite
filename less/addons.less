@@ -7,8 +7,40 @@
 
 .opacity(@fraction) {
      -moz-opacity: @fraction; 
+     -ms-filter: e(%("alpha(opacity=%s)",100 * @fraction)); 
      filter: e(%("alpha(opacity=%s)",100 * @fraction)); 
      opacity: @fraction;
+}
+
+.supportLang(en) {
+	html[lang=en] body {
+		*[lang=not-en], .not-lang-en { display: none; }
+		*[lang=es],*[lang=pt],*[lang=fr],*[lang=de] { display:none}
+	}
+}
+.supportLang(es) {
+	html[lang=es] body {
+		*[lang=not-es], .not-lang-es { display: none; }
+		*[lang=en],*[lang=pt],*[lang=fr],*[lang=de] { display:none}
+	}
+}
+.supportLang(pt) {
+	html[lang=pt] body {
+		*[lang=not-pt], .not-lang-pt { display: none; }
+		*[lang=en],*[lang=es],*[lang=fr],*[lang=de] { display:none}
+	}
+}
+.supportLang(fr) {
+	html[lang=fr] body {
+		*[lang=not-fr], .not-lang-fr { display: none; }
+		*[lang=en],*[lang=es],*[lang=pt],*[lang=de] { display:none}
+	}
+}
+.supportLang(de) {
+	html[lang=de] body {
+		*[lang=not-de], .not-lang-de { display: none; }
+		*[lang=es],*[lang=pt],*[lang=fr],*[lang=en] { display:none}
+	}
 }
 
 @import "../dev-time/less-addons/debug.less";
