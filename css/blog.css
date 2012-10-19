@@ -183,8 +183,8 @@ nav.page-menu fieldset.search button,nav.page-menu .search-base{display:inline-b
 nav.page-menu fieldset.search button:hover,nav.page-menu .search-button{display:inline-block;border:0;padding:0;width:32px;height:32px;background:transparent url('/images/buttons/top-edge.png') no-repeat -165px 0;}
 nav.page-menu .gears-button{display:inline-block;border:0;padding:0;width:32px;height:32px;background:transparent url('/images/buttons/top-edge.png') no-repeat 0 0;}
 nav.page-menu .gears{display:inline-block;border:0;padding:0;width:32px;height:32px;background:transparent url('/images/buttons/top-edge.png') no-repeat -66px 0;}
-nav.page-menu a{color:#333;font-size:1.1em;cursor:pointer;}
-nav.page-menu a:hover,html[lang=en] nav.page-menu a[name=en],html[lang=es] nav.page-menu a[name=es],html[lang=pt] nav.page-menu a[name=pt]{color:white;}
+nav.page-menu a{color:white;font-size:1.1em;cursor:pointer;}
+nav.page-menu a:hover,html[lang=en] nav.page-menu a[name=en],html[lang=es] nav.page-menu a[name=es],html[lang=pt] nav.page-menu a[name=pt]{color:#333;text-shadow:white 1px 1px 1px;}
 nav.page-menu code{vertical-align:-6px;}
 .links-bar{background:#fffff8;}.links-bar ul.breadcrumb a{color:#ffff92;}
 .links-bar:hover{background:black;-khtml-opacity:0.5;-moz-opacity:0.5;-ms-filter:alpha(opacity=50);filter:alpha(opacity=50);opacity:0.5;}.links-bar:hover ul.breadcrumb a{color:white;}
