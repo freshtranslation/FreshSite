@@ -10,7 +10,7 @@ exclude: _design, README.textile, Rakefile
 destination: _site
 lsi: false
 pygments: true
-markdown: maruku
+markdown: rdiscount
 permalink: pretty
 maruku:
   use_tex: false
