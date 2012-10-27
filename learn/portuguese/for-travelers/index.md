@@ -12,6 +12,8 @@ wrap-section: no
 			
 		<div class="two-thirds normal-read two-columns">
 {% if page.wrap-section %}<section>{% endif %}
+<h1>Corrections</h1>
+<p>The book is just out, there are no corrections yet.</p>
 
 <h2>Portuguese for Travellers</h2>
 
@@ -21,7 +23,6 @@ wrap-section: no
 <p style="padding-left:200px;">
 Are you traveling to <b>Portugal</b> or <b>Brazil</b> and want to learn enough <b>Portuguese</b> to get by? Then this book is for you. Written as an interactive <b>multi-touch</b> book for beginners, it brings the language and the situations alive for you.</p><p style="padding-left:200px;">It takes you through the common situations that you will be in on your trip and gives you interactive exercises for learning the right vocabulary. </p><p style="padding-left:200px;">It comes with integrated audio so you can learn the right <b>pronunciation</b>. </p><p style="padding-left:200px;">It is a good way to prepare before you travel, but it is also the perfect companion to bring on your trip to help you when you are in the situation and need help saying the right thing.
 </p>
-<p>The book is just out, there are no corrections yet.</p>
 
 	<h2>More Portuguese</h2>
 
