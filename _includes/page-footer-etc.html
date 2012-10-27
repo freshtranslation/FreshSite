@@ -1,41 +1,33 @@
-<nav class="etc thirds-content normal-read">
-
-	<div class="third">
-			<section class="posts">
-				<h2>Recent Posts</h2>
-
-				{% for post in site.posts limit:4 %}
-			  <h6><a href="{{ post.url }}">{{ post.title }}</a>
-			  <time>{{ post.date | date:"%b %d" }}</time>
-			  </h6>
-				<p>
-				  {{ post.summary | truncatewords:20 }}
-				  <a href="{{ post.url }}">more</a>
-				</p>
-				{% endfor %}
-
-			</section>
-	</div>
-
-	<div class="third">
-			<section>
+<nav class="etc thirds-content normal-read">{%comment%}
+{%endcomment%}		<div class="third">{%comment%}
+{%endcomment%}			<section class="posts">{%comment%}
+{%endcomment%}				<h2>Recent Posts</h2>{%comment%}
+{%endcomment%}				{% for post in site.posts limit:4 %}{%comment%}
+{%endcomment%}			  <h6><a href="{{ post.url }}">{{ post.title }}</a>{%comment%}
+{%endcomment%}			  <time>{{ post.date | date:"%b %d" }}</time>{%comment%}
+{%endcomment%}			  </h6>{%comment%}
+{%endcomment%}				<p>{%comment%}
+{%endcomment%}				  {{ post.summary | truncatewords:20 }}{%comment%}
+{%endcomment%}				  <a href="{{ post.url }}">more</a>{%comment%}
+{%endcomment%}				</p>{%comment%}
+{%endcomment%}				{% endfor %}{%comment%}
+{%endcomment%}			</section></div>{%comment%}
+{%endcomment%}	<div class="third">{%comment%}
+{%endcomment%}			<section>
 <h2>About Fresh Translation</h2>
 <p>
 	Fresh Translation is a newly started translation service into Latin languages. We translate documents and websites into Portuguese, Spanish, English and French. 
 </p><p>
 	Our process is specifically tailored to give our translation the extra polish needed in areas such as technical writing, legal summaries and sales presentations.
 <a href="/about/">More ...</a>
-</p>
-			</section>
-		</div>
-	</div>
-
-	<div class="third">
-			<section>
-				<h2>Stay Informed</h2>
-				<p>Let's send you a summary of our services.
-				We'll occasionally email you when we have more things to offer.</p>
-				{% include mailchimp-stay-informed.html %}
-			</section>
-	</div>
-</nav>
+</p>{%comment%}
+{%endcomment%}			</section>{%comment%}
+{%endcomment%}		</div>{%comment%}
+{%endcomment%}	</div>{%comment%}
+{%endcomment%}	<div class="third">{%comment%}
+{%endcomment%}			<section>{%comment%}
+{%endcomment%}<h2>Stay Informed</h2><p>Let's send you a summary of our services. We'll occasionally email you when we have more things to offer.</p>{%comment%}
+{%endcomment%}{% include mailchimp-stay-informed.html %}{%comment%}
+{%endcomment%}			</section>{%comment%}
+{%endcomment%}	</div>{%comment%}
+{%endcomment%}</nav>
