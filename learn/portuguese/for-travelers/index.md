@@ -20,23 +20,6 @@ wrap-section: no
 <a style="position:absolute; left:0;" href="https://itunes.apple.com/us/book/portuguese-for-travelers/id568515833" target="_new">
 <img width="186" height="186" src="/images/Portuguese for Travelers.png"></a>
 
-<script>
-function navToBook(name,id) {
-	var href = "{protocol}://itunes.apple.com/{lang}/book/"+name+"/"+id;
-	var lang = (window.navigator.userLanguage || window.navigator.language).substring(0,2);
-	if (navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPhone")) {
-		href.replace("{protocol}","itms-books");
-	}
-	else {
-		href.replace("{protocol}","https");
-	}
-	href.replace("{lang}",lang);
-	location.href = href;
-}
-
-if (location.search == "?store") navToBook("portuguese-for-travelers","id568515833");
-</script>
-
 <p style="padding-left:200px;">
 Are you traveling to <b>Portugal</b> or <b>Brazil</b> and want to learn enough <b>Portuguese</b> to get by? Then this book is for you. Written as an interactive <b>multi-touch</b> book for beginners, it brings the language and the situations alive for you.</p><p style="padding-left:200px;">It takes you through the common situations that you will be in on your trip and gives you interactive exercises for learning the right vocabulary. </p><p style="padding-left:200px;">It comes with integrated audio so you can learn the right <b>pronunciation</b>. </p><p style="padding-left:200px;">It is a good way to prepare before you travel, but it is also the perfect companion to bring on your trip to help you when you are in the situation and need help saying the right thing.
 </p>
