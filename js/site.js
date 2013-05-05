@@ -85,12 +85,12 @@ function navToBook(name,id) {
   var href = "{protocol}://itunes.apple.com/{lang}/book/"+name+"/"+id;
   var lang = (window.navigator.userLanguage || window.navigator.language).substring(0,2);
   if (navigator.userAgent.indexOf("iPad") >=0 || navigator.userAgent.indexOf("iPhone") >= 0) {
-    href.replace("{protocol}","itms-books");
+    href = href.replace("{protocol}","itms-books");
   }
   else {
-    href.replace("{protocol}","https");
+    href = href.replace("{protocol}","https");
   }
-  href.replace("{lang}",lang);
+  href = href.replace("{lang}",lang);
   location.href = href;
 }
 
