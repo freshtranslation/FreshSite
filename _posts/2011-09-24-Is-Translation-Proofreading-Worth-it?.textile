@@ -5,8 +5,8 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: Why should I use additional proofreading services?
-categories:
-  - onaquest
+categories: [onaquest]
+tags:
   - Proofreading Services
 ---
 

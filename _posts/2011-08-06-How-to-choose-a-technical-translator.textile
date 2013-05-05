@@ -5,8 +5,7 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York 
 summary: In today's blog post we are giving you some tips that might help you choosing the right *technical translator*. 
-category:
-  - onaquest
+categories: [onaquest]
 ---
 
 Technical Translation is a specialised translation of documents in fields such as aerospace industry, computer hardware and software, chemistry or finance. 

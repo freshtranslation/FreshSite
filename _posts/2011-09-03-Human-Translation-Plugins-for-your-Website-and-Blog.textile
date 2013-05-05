@@ -5,8 +5,8 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: I recently wrote an article about WordPress translation plugins that provide human accuracy by combining automatic translation and human post-editing. 
-categories:
-  - onaquest
+categories: [onaquest]
+tags:
   - website-translation
   - machine-translation
 ---

@@ -5,10 +5,11 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: With the boom of Globalization, companies across the globe started seeking out new methods to maximize their sales 
-category:
- - onaquest
+categories: [onaquest]
 tags:
- - Translation,Globalization,Profit 
+ - Translation
+ - Globalization
+ - Profit 
 ---
 
 With the boom of Globalization, companies across the globe started seeking out new methods to maximize their sales. 

@@ -1,13 +1,11 @@
 ---
-
 layout: post
 title: Recursos para Traductores 
 author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: Brazil 
-summary: Aquí os dejo una breve lista de algunos de mis favoritos diccionarios monolingües.
-category:
-  - onaquest
+summary: "Aquí os dejo una breve lista de algunos de mis favoritos diccionarios monolingües."
+categories: [onaquest]
 ---
 Aquí os dejo una breve lista de algunos de mis favoritos diccionarios monolingües.
 

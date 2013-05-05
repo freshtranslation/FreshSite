@@ -5,11 +5,10 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: As the aerospace industry continues to pump up the economy, creating more market opportunities worldwide, the demand for technical specific translations continues to rise.
-Category:
- - onaquest, engineering translations, Technical translations 
-
-
-
+categories: [onaquest]
+tags:
+ - engineering translations
+ - Technical translations 
 ---
 
 Aerospace is a widely diverse field and a multi-billion dollar business industry. The "Aerospace Industry Forecast to 2013" report, estimates that by the end of 2027, the world’s airlines will take delivery of 29,400 civil airplanes with total value of US$ 3.2 trillion to keep pace with the growing demand for air travelling. Despite the lingering effects of the global economic downturn, the industry continues to represent one of the largest manufacturing industries in terms of people employed and value of output. 

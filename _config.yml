@@ -5,7 +5,7 @@ description: On a Quest to make Fresh Translations.
 email: contact@freshtranslation.com
 analytics_id: UA-22749258-2
 ykey: 9ffe1e30a0a8e200
-    
+
 exclude: _design, README.textile, Rakefile
 destination: _site
 lsi: false

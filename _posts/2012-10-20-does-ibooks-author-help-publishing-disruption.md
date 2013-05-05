@@ -3,10 +3,9 @@ layout: post
 title: Does iBooks Author Help Publishing Disruption
 author: Henrik Vendelbo
 authorurl: /Henrik+Vendelbo
-location: Zürich
+location: "Zürich"
 summary: We've all thought of going on a quest at some point in our lives. Mine emerged in my mind earlier this year after realizing that translation is one area that I am keen to explore in greater detail. I am currently in the process of developing myself into a freelance translation business, therefore I thought it would be a good idea to share some views on this topic.
-category:
-  - onaquest
+categories: [onaquest]
 ---
 
 Having just finished putting together a book with iBooks Author got me thinking. 

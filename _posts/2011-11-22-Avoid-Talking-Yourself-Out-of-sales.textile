@@ -5,10 +5,11 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: Did you ever get the feeling that there was something lost in *translation* during your sales presentation? You're certainly not the only one.   
-
-Category:
- - onaquest, Language, Translation, jargon  
-
+categories: [onaquest]
+tags:
+ - Language
+ - Translation
+ - jargon  
 ---
 
 Did you ever get the feeling that there was something lost in *translation* during your sales presentation? You're certainly not the only one.   

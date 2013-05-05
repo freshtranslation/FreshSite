@@ -5,8 +5,7 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: Before starting my career as an in-house translator I was considering to pursue my studies in conference interpretation. I finally chose translation as I realized that writing is my passion! I prefer translation over interpreting work as it gives me more "freedom" to play with words, to work on my own space at my own pace! On the flip side, I consider interpreting to be very stimulating and demanding at the same time. This is when I am forced to exercise every neuron in my brain. Having to think about all my research in addition to what's been said and quickly transform it to what is being said. 
-category:
-  - onaquest
+categories: [onaquest]
 ---
 Before starting my career as an in-house translator I was considering to pursue my studies in conference interpretation. 
 I finally chose translation as I realized that writing is my passion! 

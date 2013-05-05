@@ -4,9 +4,8 @@ title: Tips for Translating your Website
 author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York 
-summary: Top 5 tips and guides to *translate* your website. 
-category:
-  - onaquest
+summary: "Top 5 tips and guides to *translate* your website."
+categories: [onaquest]
 ---
 Top 5 website translation tips  
 

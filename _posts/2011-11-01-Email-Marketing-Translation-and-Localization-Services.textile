@@ -5,8 +5,7 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: Want to make the most out of your email marketing strategy? Here at *Fresh Translation*, we will give you some tips on how to raise your revenue with email marketing.
- - onaquest
-
+categories: [onaquest]
 ---
 
 Want to make the most out of your email marketing strategy? Here at *Fresh Translation*, we will give you some tips on how to raise your revenue with email marketing. 

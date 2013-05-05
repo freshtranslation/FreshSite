@@ -5,10 +5,7 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: If you are considering shopping for a translator, there are essentially two things to keep in mind. 
-Category:
- - onaquest
- 
-
+categories: [onaquest]
 ---
 
 If you are considering shopping for a translator, there are essentially two things to keep in mind. 

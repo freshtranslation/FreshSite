@@ -5,8 +5,7 @@ author: Caterine Apruzzese
 authorurl: /Caterine+Apruzzese
 location: New York
 summary: If your next big goal is to learn Spanish or Portuguese, you have set yourself a pretty realistic goal. Let's start learning now! 
-category:
- - onaquest
+categories: [onaquest]
 ---
 If your next goal is to <a href="http://freshtranslation.com/learning-portuguese">learn Portuguese or Spanish</a>, then let me tell you that you've set yourself a pretty realistic goal! The tips that I am gonna give you are purely based on my own experiences as a language learner and teacher. I always try to come up with new ways of making my language learning experiences more fun and effective. 
 
