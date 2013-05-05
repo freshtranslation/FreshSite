@@ -21,12 +21,20 @@ wrap-section: no
 <img width="186" height="186" src="/images/Portuguese for Travelers.png"></a>
 
 <script>
-if (location.search == "?store") !function(){
-	var href = "itms-books://itunes.apple.com/{lang}/book/portuguese-for-travelers/id568515833";
+function navToBook(name,id) {
+	var href = "{protocol}://itunes.apple.com/{lang}/book/"+name+"/"+id;
 	var lang = (window.navigator.userLanguage || window.navigator.language).substring(0,2);
+	if (navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPhone")) {
+		href.replace("{protocol}","itms-books");
+	}
+	else {
+		href.replace("{protocol}","https");
+	}
 	href.replace("{lang}",lang);
 	location.href = href;
-}();
+}
+
+if (location.search == "?store") navToBook("portuguese-for-travelers","id568515833");
 </script>
 
 <p style="padding-left:200px;">
