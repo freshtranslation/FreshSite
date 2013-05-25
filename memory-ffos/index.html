@@ -46,6 +46,15 @@ layout: nil
     <!-- input type="file" accept="audio/*;capture=microphone" -->
     <div role="toolbar" data-role="'generator':'app.Application'" action="controls">
         <button name="play game">Play Game</button>
+
+<script>
+var manifest_url = "http://freshtranslation.com/memory-ffos/manifest.webapp";
+</script>
+
+<button onclick="navigator.mozApps.install(manifest_url); return false;">
+  Install this awesome app on your homescreen!
+</button>
+
     </div>
 
 
