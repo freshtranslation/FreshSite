@@ -1,9 +1,9 @@
 {
   "name": "Memory - English",
   "description": "Memory game for the Firefox OS App Day in Zurich - 25.05.2013",
-  "launch_path": "/memory-ffos/index.html",
+  "launch_path": "/",
   "icons": {
-    "128": "/memory-ffos/app-icon-128.png"
+    "128": "/app-icon-128.png"
   },
   "developer": {
     "name": "Right Here Inc",
